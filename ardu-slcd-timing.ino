@@ -14,17 +14,9 @@ void setup() {
   last = millis();
 }
 
-char buffer[16];
-
 void loop(){  
-  for (int y = 0; y < 1; y++) {
-    for (int x = 0; x < 16; x++) {
-      buffer[x] = '-';
-    }
-  }
-  
   slcd.setCursor(0,0);
-  slcd.print(buffer);
+  slcd.print("----------------");
   
   samplecount++;
   if (samplecount > samplesize) {

@@ -6,3 +6,6 @@
 
 16 chars, write to prebuffer, one setCursor, one print, 100 samples
 2601 micros
+
+16 char, one setCursor, direct write with one print, 100 samples
+2293 micros
