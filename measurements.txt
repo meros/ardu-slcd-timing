@@ -4,3 +4,5 @@
 16 chars, one setCursor, 100 samples
 3920 micros
 
+16 chars, write to prebuffer, one setCursor, one print, 100 samples
+2601 micros
