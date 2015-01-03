@@ -1,3 +1,6 @@
 16 chars, always setCursor, 100 samples
 10796 micros
 
+16 chars, one setCursor, 100 samples
+3920 micros
+
